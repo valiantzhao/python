@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "flask/bin/python3",
+    // 默认使用pylint对Python文件进行静态检查
+    "python.linting.pylintEnabled": true,
+    // 默认对Python文件进行静态检查
+    "python.linting.enabled": true,
+    // 默认在Python文件保存时进行静态检查
+    "python.linting.lintOnSave": true,
+}
