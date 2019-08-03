@@ -1,2 +1,2 @@
-from model_name import name
+from module_name import name
 print(name)
