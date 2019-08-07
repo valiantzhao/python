@@ -27,3 +27,9 @@ for key, value in abc.items():
 
 for language in set(favorite_languages.values()):
     print(language.title())
+
+for language in sorted(favorite_languages.values()):
+    print(language.title())
+
+for language in sorted(favorite_languages.keys()):
+    print(language.title())
