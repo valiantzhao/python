@@ -16,7 +16,7 @@ del abc['newdic1']
 print(abc)
 
 favorite_languages = {'jen': 'python', 'sarah': 'c',
-                      'edward': 'ruby', 'phil': 'python', }
+                      'edward': 'ruby', 'phil': 'python', 'sss': 'python'}
 print("Sarah's favorite language is " +
       favorite_languages['sarah'].title()
       + ".")
@@ -24,3 +24,6 @@ print("Sarah's favorite language is " +
 for key, value in abc.items():
     print("\nkey:"+key)
     print("vallue:"+str(value))
+
+for language in set(favorite_languages.values()):
+    print(language.title())
